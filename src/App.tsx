@@ -454,7 +454,7 @@ function FreezeScreen({
           <GlassButton icon="pen" label="Draw around it" compact />
           <button className="primary-light-button" type="button" onClick={transformSelection}>
             <Icon name="check" />
-            <span>Transform this</span>
+            <span>Press Enter ✨</span>
           </button>
         </div>
         <p className="freeze-hint">Everything else fades softly away.</p>
@@ -512,7 +512,7 @@ function RevealScreen({
           <span />
           YOUR SPARK IS READY
         </div>
-        <h1>Monstera, reimagined.</h1>
+        <h1>Your Inspiration Reimagined</h1>
         {error && <StatusPill>{error}</StatusPill>}
         <div className="svg-card">
           <div className="generated-svg" dangerouslySetInnerHTML={{ __html: result.markup }} />
